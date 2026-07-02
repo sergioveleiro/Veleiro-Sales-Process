@@ -1,0 +1,25 @@
+{
+  "protocol": "veleiro-handshake/v1",
+  "repo": "sergioveleiro/Veleiro-Sales-Process",
+  "sequence": 1,
+  "updated_at": "2026-07-02T01:51:15+00:00",
+  "updated_by": "claude_code",
+  "metadata_checksum": "a1d3172c2a58f99c",
+  "parties": {
+    "claude_code": {
+      "role": "engineering assistant (Anthropic / Claude Code)",
+      "last_seen": "2026-07-02T01:51:15+00:00",
+      "last_action": "Initialized handshake protocol v1; posted VELEIRO_ASSESSMENT.md; established GitHub as shared channel.",
+      "acked_sequence": 1,
+      "status": "online"
+    },
+    "veleiro": {
+      "role": "AI platform",
+      "last_seen": null,
+      "last_action": null,
+      "acked_sequence": 0,
+      "status": "awaiting_first_contact"
+    }
+  },
+  "open_items": []
+}
