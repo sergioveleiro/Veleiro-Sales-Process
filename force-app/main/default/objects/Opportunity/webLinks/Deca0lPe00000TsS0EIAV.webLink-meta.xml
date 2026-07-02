@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deca0lPe00000TsS0EIAV</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>SI Agent Platform - Letter of Intent</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR($Site.BaseUrl + '/apex/dfsle__sending', null, [sId = Opportunity.Id, sendingExperience = 'null', isEmbedded = false, templateId = 'a0lPe00000TsS0EIAV', recordId = Opportunity.Id, title = 'SI Agent Platform - Letter of Intent'])}</url>
+</WebLink>

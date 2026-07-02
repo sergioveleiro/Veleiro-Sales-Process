@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funding_Round_Required</fullName>
+    <active>true</active>
+    <description>Funding Round lookup must be populated on Investor Outreach Opportunities. Prevents orphaned investor Opps that cannot roll up to a round.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = 'Investor_Outreach',
+    ISBLANK(Funding_Round__c)
+)</errorConditionFormula>
+    <errorDisplayField>Funding_Round__c</errorDisplayField>
+    <errorMessage>Funding Round is required for Investor Outreach Opportunities.</errorMessage>
+</ValidationRule>

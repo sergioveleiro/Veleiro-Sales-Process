@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Thesis_Tags__c</fullName>
+    <description>Free-text thesis or sector tags (e.g., "AI infra, vertical SaaS, LatAm").</description>
+    <label>Thesis / Sector Tags</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

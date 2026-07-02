@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bypass_Lead_Attribution</fullName>
+    <description>Bypass de la regla de atribución de Lead (G-07). Se concede vía permission set (Seguridad y Acceso) a integraciones y a la cuenta de backfill antes de activar la regla. Orden: asignar bypass, backfill, activar.</description>
+    <isLicensed>false</isLicensed>
+    <label>Bypass Lead Attribution</label>
+</CustomPermission>

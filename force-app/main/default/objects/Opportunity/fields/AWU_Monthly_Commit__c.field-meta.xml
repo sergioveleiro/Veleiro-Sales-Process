@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AWU_Monthly_Commit__c</fullName>
+    <description>Contractual minimum monthly Agentic Work Units (AWU) the customer commits to. This commit unlocks the lower Per-AWU Rate. Core field of the Committed-Spend Opportunity.</description>
+    <label>AWU Monthly Commit</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+</CustomField>

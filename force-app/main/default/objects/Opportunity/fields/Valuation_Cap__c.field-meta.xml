@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valuation_Cap__c</fullName>
+    <description>Valuation cap on this specific SAFE or Note. Usually inherits from Funding Round but can be negotiated per investor.</description>
+    <label>Valuation Cap</label>
+    <precision>16</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Currency</type>
+</CustomField>

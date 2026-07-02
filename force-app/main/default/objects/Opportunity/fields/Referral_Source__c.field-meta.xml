@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Source__c</fullName>
+    <label>Referral Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Warm Intro</fullName>
+                <default>false</default>
+                <label>Warm Intro</label>
+            </value>
+            <value>
+                <fullName>Connector</fullName>
+                <default>false</default>
+                <label>Connector</label>
+            </value>
+            <value>
+                <fullName>Accelerator</fullName>
+                <default>false</default>
+                <label>Accelerator</label>
+            </value>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <label>Conference</label>
+            </value>
+            <value>
+                <fullName>Cold Outreach</fullName>
+                <default>false</default>
+                <label>Cold Outreach</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

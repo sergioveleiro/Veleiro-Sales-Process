@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investor_Type__c</fullName>
+    <label>Investor Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>VC</fullName>
+                <default>false</default>
+                <label>VC</label>
+            </value>
+            <value>
+                <fullName>Family Office</fullName>
+                <default>false</default>
+                <label>Family Office</label>
+            </value>
+            <value>
+                <fullName>CVC</fullName>
+                <default>false</default>
+                <label>CVC</label>
+            </value>
+            <value>
+                <fullName>Accelerator</fullName>
+                <default>false</default>
+                <label>Accelerator</label>
+            </value>
+            <value>
+                <fullName>Angel</fullName>
+                <default>false</default>
+                <label>Angel</label>
+            </value>
+            <value>
+                <fullName>Angel Network</fullName>
+                <default>false</default>
+                <label>Angel Network</label>
+            </value>
+            <value>
+                <fullName>Syndicate</fullName>
+                <default>false</default>
+                <label>Syndicate</label>
+            </value>
+            <value>
+                <fullName>Ecosystem Org</fullName>
+                <default>false</default>
+                <label>Ecosystem Org</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

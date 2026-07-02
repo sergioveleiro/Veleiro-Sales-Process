@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investor_Funnel</fullName>
+    <description>Sales Process exposing the 7 investor outreach stages. Used by Investor_Outreach Record Type.</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>1%2E Identified</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>2%2E Outreach</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>3%2E Engaged</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>4%2E Diligence</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>5%2E Committed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6%2E Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6%2E Closed Won</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejection_Reason__c</fullName>
+    <description>Reason this investor declined. Required when Stage is Closed Lost.</description>
+    <label>Rejection Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Stage Fit</fullName>
+                <default>false</default>
+                <label>Stage Fit</label>
+            </value>
+            <value>
+                <fullName>Check Size</fullName>
+                <default>false</default>
+                <label>Check Size</label>
+            </value>
+            <value>
+                <fullName>Sector</fullName>
+                <default>false</default>
+                <label>Sector</label>
+            </value>
+            <value>
+                <fullName>Competitive Conflict</fullName>
+                <default>false</default>
+                <label>Competitive Conflict</label>
+            </value>
+            <value>
+                <fullName>No Response</fullName>
+                <default>false</default>
+                <label>No Response</label>
+            </value>
+            <value>
+                <fullName>Timing</fullName>
+                <default>false</default>
+                <label>Timing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

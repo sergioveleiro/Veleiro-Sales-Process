@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investor_Pipeline_Stage__c</fullName>
+    <description>Account-level pipeline status, independent of any particular round. Use this for the question "where do we stand with this fund overall?" Round-specific status lives on the Opportunity.</description>
+    <label>Investor Pipeline Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+                <label>Not Started</label>
+            </value>
+            <value>
+                <fullName>Researching</fullName>
+                <default>false</default>
+                <label>Researching</label>
+            </value>
+            <value>
+                <fullName>Warm Path Identified</fullName>
+                <default>false</default>
+                <label>Warm Path Identified</label>
+            </value>
+            <value>
+                <fullName>Outreach Sent</fullName>
+                <default>false</default>
+                <label>Outreach Sent</label>
+            </value>
+            <value>
+                <fullName>In Conversation</fullName>
+                <default>false</default>
+                <label>In Conversation</label>
+            </value>
+            <value>
+                <fullName>Met - Follow-up Needed</fullName>
+                <default>false</default>
+                <label>Met - Follow-up Needed</label>
+            </value>
+            <value>
+                <fullName>Disqualified - Wrong Fit</fullName>
+                <default>false</default>
+                <label>Disqualified - Wrong Fit</label>
+            </value>
+            <value>
+                <fullName>Disqualified - Wrong Sector</fullName>
+                <default>false</default>
+                <label>Disqualified - Wrong Sector</label>
+            </value>
+            <value>
+                <fullName>Disqualified - Inactive</fullName>
+                <default>false</default>
+                <label>Disqualified - Inactive</label>
+            </value>
+            <value>
+                <fullName>Low Priority</fullName>
+                <default>false</default>
+                <label>Low Priority</label>
+            </value>
+            <value>
+                <fullName>Needs Re-Research</fullName>
+                <default>false</default>
+                <label>Needs Re-Research</label>
+            </value>
+            <value>
+                <fullName>Future - Later Stage</fullName>
+                <default>false</default>
+                <label>Future - Later Stage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

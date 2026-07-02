@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RType</fullName>
+    <customValue>
+        <fullName>EndCustomer</fullName>
+        <default>true</default>
+        <label>End Customer</label>
+    </customValue>
+    <customValue>
+        <fullName>SystemsIntegrator</fullName>
+        <default>false</default>
+        <label>Systems Integrator</label>
+    </customValue>
+    <customValue>
+        <fullName>OEM</fullName>
+        <default>false</default>
+        <label>SaaS OEM</label>
+    </customValue>
+    <customValue>
+        <fullName>Investor</fullName>
+        <default>false</default>
+        <label>Investor</label>
+    </customValue>
+    <customValue>
+        <fullName>Candidate</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Candidate</label>
+    </customValue>
+    <masterLabel>Record Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

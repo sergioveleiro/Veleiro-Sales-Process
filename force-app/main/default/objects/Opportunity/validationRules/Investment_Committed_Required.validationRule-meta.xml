@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investment_Committed_Required</fullName>
+    <active>true</active>
+    <description>Investment Committed amount must be populated when an Investor Outreach Opportunity reaches 5. Committed or 6. Closed Won. Ensures round roll-up totals are accurate.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = 'Investor_Outreach',
+    OR(
+        ISPICKVAL(StageName, '5. Committed'),
+        ISPICKVAL(StageName, '6. Closed Won')
+    ),
+    OR(
+        ISBLANK(Investment_Committed__c),
+        Investment_Committed__c = 0
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Investment_Committed__c</errorDisplayField>
+    <errorMessage>Investment Committed amount is required at 5. Committed and 6. Closed Won stages.</errorMessage>
+</ValidationRule>

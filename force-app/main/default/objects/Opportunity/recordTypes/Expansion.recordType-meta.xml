@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expansion</fullName>
+    <active>true</active>
+    <businessProcess>Expansion_Process</businessProcess>
+    <description>Expansion Opportunity (developer/services tier), triggered when the usage Penetration Checkpoint is Met. Expansion auto-trigger and AWU_Consumed__c write-back DEFERRED pending R-3. Stage set PROVISIONAL pending OQ-009.</description>
+    <label>Expansion</label>
+    <picklistValues>
+        <picklist>Penetration_Checkpoint__c</picklist>
+        <values>
+            <fullName>Not Met</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Met</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

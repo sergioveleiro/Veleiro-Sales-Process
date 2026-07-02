@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LAND_Sales_Process</fullName>
+    <description>PROVISIONAL (OQ-009 TBC). LAND new-business acquisition funnel. Uses only existing global StageName values so no shared picklist change is required. Final stage set to be locked in Solution Design with Nic.</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>1%2E Interest Validation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>2%2E Technical Discovery</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>3%2E Demo</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>4%2E Proposal</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>5%2E Negotiation %26 Signatures</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6%2E Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6%2E Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6%2E Dead - No Decision</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6%2E Dead - No Opportunity</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

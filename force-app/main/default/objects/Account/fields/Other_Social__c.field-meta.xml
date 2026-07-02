@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Social__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Add Prefix for Channel - e.g., F@examplehandle, T@tiktokhandle
+
+F - Facebook, T - Tiktok, etc.</inlineHelpText>
+    <label>Other Social</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

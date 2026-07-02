@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Attribution_On_Qualification</fullName>
+    <active>false</active>
+    <description>G-07/E-003 — Exige LeadSource al convertir, salvo Custom Permission Bypass_Lead_Attribution. INACTIVA; activar tras: asignar bypass, backfill, activar. Disparador (conversión) PROVISIONAL; gate final por Status en OQ-010 (Solution Design).</description>
+    <errorConditionFormula>AND(
+  IsConverted,
+  ISBLANK(TEXT(LeadSource)),
+  NOT($Permission.Bypass_Lead_Attribution)
+)</errorConditionFormula>
+    <errorDisplayField>LeadSource</errorDisplayField>
+    <errorMessage>Debes indicar el Origen del Lead (LeadSource) antes de convertir el Lead. Esto garantiza la atribución de pipeline para los reportes del board.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejection_Reason_Required_At_Loss</fullName>
+    <active>true</active>
+    <description>Rejection Reason must be set when an Investor Outreach Opportunity is moved to 6. Closed Lost. Captures the reason a fund passed for future round learning.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = 'Investor_Outreach',
+    ISPICKVAL(StageName, '6. Closed Lost'),
+    ISBLANK(TEXT(Rejection_Reason__c))
+)</errorConditionFormula>
+    <errorDisplayField>Rejection_Reason__c</errorDisplayField>
+    <errorMessage>Rejection Reason is required when Stage is 6. Closed Lost.</errorMessage>
+</ValidationRule>

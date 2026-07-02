@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Connector_Activation_Status__c</fullName>
+    <label>Activation Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Activated</fullName>
+                <default>true</default>
+                <label>Not Activated</label>
+            </value>
+            <value>
+                <fullName>Ask Pending</fullName>
+                <default>false</default>
+                <label>Ask Pending</label>
+            </value>
+            <value>
+                <fullName>Intro Requested</fullName>
+                <default>false</default>
+                <label>Intro Requested</label>
+            </value>
+            <value>
+                <fullName>Intro Made</fullName>
+                <default>false</default>
+                <label>Intro Made</label>
+            </value>
+            <value>
+                <fullName>Complete</fullName>
+                <default>false</default>
+                <label>Complete</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

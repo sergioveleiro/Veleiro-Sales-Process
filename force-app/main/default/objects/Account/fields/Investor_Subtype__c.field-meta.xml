@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investor_Subtype__c</fullName>
+    <label>Investor Subtype</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Emerging Manager</fullName>
+                <default>false</default>
+                <label>Emerging Manager</label>
+            </value>
+            <value>
+                <fullName>Solo GP</fullName>
+                <default>false</default>
+                <label>Solo GP</label>
+            </value>
+            <value>
+                <fullName>Single-Family Office</fullName>
+                <default>false</default>
+                <label>Single-Family Office</label>
+            </value>
+            <value>
+                <fullName>Multi-Family Office</fullName>
+                <default>false</default>
+                <label>Multi-Family Office</label>
+            </value>
+            <value>
+                <fullName>Impact</fullName>
+                <default>false</default>
+                <label>Impact</label>
+            </value>
+            <value>
+                <fullName>Diverse-Founder Focus</fullName>
+                <default>false</default>
+                <label>Diverse-Founder Focus</label>
+            </value>
+            <value>
+                <fullName>Generalist</fullName>
+                <default>false</default>
+                <label>Generalist</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

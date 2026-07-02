@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Platform_User__c</fullName>
+    <label>Platform Usage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Veleiro Discovery Owner</fullName>
+                <default>false</default>
+                <label>Veleiro Discovery Owner</label>
+            </value>
+            <value>
+                <fullName>Veleiro Admin Owner</fullName>
+                <default>false</default>
+                <label>Veleiro Admin Owner</label>
+            </value>
+            <value>
+                <fullName>Veleiro Participant</fullName>
+                <default>false</default>
+                <label>Veleiro Participant</label>
+            </value>
+            <value>
+                <fullName>Salesforce User</fullName>
+                <default>false</default>
+                <label>Salesforce User</label>
+            </value>
+            <value>
+                <fullName>Salesforce Admin</fullName>
+                <default>false</default>
+                <label>Salesforce Admin</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

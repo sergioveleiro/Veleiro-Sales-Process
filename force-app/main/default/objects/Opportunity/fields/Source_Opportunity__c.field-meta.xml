@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_Opportunity__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Self-referential lookup linking a lifecycle Opportunity (Committed-Spend or Expansion) back to the Opportunity it was spawned from (LAND -&gt; Committed-Spend -&gt; Expansion). Populated by the lifecycle Flow.</description>
+    <label>Source Opportunity</label>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Child Opportunities</relationshipLabel>
+    <relationshipName>Child_Opportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funding_Round__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>The Funding Round this investor outreach belongs to. Required on Investor Outreach Record Type via validation rule.</description>
+    <label>Funding Round</label>
+    <referenceTo>Funding_Round__c</referenceTo>
+    <relationshipLabel>Investor Outreach Opportunities</relationshipLabel>
+    <relationshipName>Investor_Outreach_Opportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

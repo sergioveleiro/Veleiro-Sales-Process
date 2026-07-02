@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Round_Fit_Required_Post_Identified</fullName>
+    <active>true</active>
+    <description>Round Fit must be set on Investor Outreach Opportunities once the deal advances past 1. Identified. Forces an explicit assessment of whether the fund is right for this specific round.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = 'Investor_Outreach',
+    NOT(ISPICKVAL(StageName, '1. Identified')),
+    ISBLANK(TEXT(Round_Fit__c))
+)</errorConditionFormula>
+    <errorDisplayField>Round_Fit__c</errorDisplayField>
+    <errorMessage>Round Fit is required once Stage advances past 1. Identified.</errorMessage>
+</ValidationRule>

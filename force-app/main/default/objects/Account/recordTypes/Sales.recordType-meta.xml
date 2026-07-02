@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales</fullName>
+    <active>true</active>
+    <description>Direct Sales Businesses</description>
+    <label>End Customer</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar Foundations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fund_Status__c</picklist>
+        <values>
+            <fullName>Active - Deploying</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paused</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raising New Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Geo_Focus__c</picklist>
+        <values>
+            <fullName>APAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LatAm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MENA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture Forestry and Fishing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education and Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy and Utilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance and Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare and Pharmaceuticals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing and Wholesale Trade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing and Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Estate and Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail and Consumer Goods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation and Logistics</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Investor_Pipeline_Stage__c</picklist>
+        <values>
+            <fullName>Disqualified - Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disqualified - Wrong Fit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disqualified - Wrong Sector</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Future - Later Stage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Conversation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Priority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Met - Follow-up Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs Re-Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Outreach Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Researching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm Path Identified</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Investor_Subtype__c</picklist>
+        <values>
+            <fullName>Diverse-Founder Focus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emerging Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generalist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi-Family Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single-Family Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solo GP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Investor_Type__c</picklist>
+        <values>
+            <fullName>Accelerator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Angel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Angel Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecosystem Org</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Syndicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin__c</picklist>
+        <values>
+            <fullName>CRM Score</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crunchbase Import</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Curated Target List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stage_Focus__c</picklist>
+        <values>
+            <fullName>Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-seed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Series A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Series B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Series C%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stage-Agnostic</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
