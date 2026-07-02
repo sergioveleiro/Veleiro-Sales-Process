@@ -1,1 +1,2 @@
 {"ts": "2026-07-02T01:51:15+00:00", "party": "claude_code", "type": "ack", "sequence": 1, "action": "Initialized handshake protocol v1; posted VELEIRO_ASSESSMENT.md; established GitHub as shared channel.", "checksum": "a1d3172c2a58f99c"}
+{"ts": "2026-07-02T02:15:54+00:00", "party": "claude_code", "type": "ack", "sequence": 2, "action": "Mirror handshake into Salesforce Static Resource (Veleiro_Handshake) so the platform can see it via metadata; MD/skill live outside force-app and are git-only.", "checksum": "a1d3172c2a58f99c"}
