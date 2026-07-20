@@ -3,6 +3,7 @@
     <fullName>Source_Opportunity__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Self-referential lookup linking a lifecycle Opportunity (Committed-Spend or Expansion) back to the Opportunity it was spawned from (LAND -&gt; Committed-Spend -&gt; Expansion). Populated by the lifecycle Flow.</description>
+    <inlineHelpText>Oportunidad de la que se originó este registro en el ciclo LAND → Committed-Spend → Expansion. La completa automáticamente el Flow de ciclo de vida.</inlineHelpText>
     <label>Source Opportunity</label>
     <referenceTo>Opportunity</referenceTo>
     <relationshipLabel>Child Opportunities</relationshipLabel>

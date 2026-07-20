@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Discount_Rate__c</fullName>
+    <description>Porcentaje de descuento aplicado sobre la tarifa estándar por AWU según el nivel de compromiso del cliente.</description>
+    <inlineHelpText>Porcentaje de descuento sobre la tarifa estándar por AWU, según el nivel de compromiso contractual.</inlineHelpText>
     <label>Discount Rate</label>
     <precision>5</precision>
     <required>false</required>

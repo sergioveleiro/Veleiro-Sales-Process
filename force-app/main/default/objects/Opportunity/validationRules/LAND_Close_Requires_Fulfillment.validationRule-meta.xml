@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LAND_Close_Requires_Fulfillment</fullName>
+    <active>false</active>
+    <description>INACTIVE. LAND close fulfillment gate: at 6. Closed Won requires Contract Signed, PAYG Paid, Users Provisioned. Complements LAND_Close_Requires_Commit_Terms. Stage provisional (OQ-009). Activation by Nic.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = 'LAND',
+    ISPICKVAL(StageName, '6. Closed Won'),
+    OR(
+        NOT(Contract_Signed__c),
+        NOT(PAYG_Paid__c),
+        NOT(Users_Provisioned__c)
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Contract_Signed__c</errorDisplayField>
+    <errorMessage>Antes de marcar Closed Won en una oportunidad LAND, confirma los requisitos operativos de cierre: Contrato Firmado (Contract Signed), PAYG Pagado (PAYG Paid) y Usuarios Aprovisionados (Users Provisioned).</errorMessage>
+</ValidationRule>

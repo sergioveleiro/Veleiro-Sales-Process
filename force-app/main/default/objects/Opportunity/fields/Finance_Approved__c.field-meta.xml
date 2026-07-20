@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finance_Approved__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Close-stage approval gate (Negotiation and Close). Checked when finance has approved the commercial terms (AWU rate, commit). Lightweight checkbox gate in lieu of a formal ApprovalProcess (4-5 person founder-consensus org, zero-Apex; consistent with Quoting D-1). Enforced at 6. Closed Won on RT LAND by LAND_Close_Requires_Approvals (INACTIVE). Activation by Nic via Security and Access.</description>
+    <label>Finance Approved</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

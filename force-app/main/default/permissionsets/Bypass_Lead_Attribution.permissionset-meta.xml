@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bypass_Lead_Attribution</fullName>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Bypass_Lead_Attribution</name>
+    </customPermissions>
+    <description>Wraps the Bypass_Lead_Attribution custom permission. Assign to the backfill/admin/integration users BEFORE activating the Require_Attribution_On_Qualification validation rule so mass backfill and system-created Leads do not trip the rule. Activation order: assign this set, backfill LeadSource, then activate the rule (Nic authority, gated on OQ-010).</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Bypass Lead Attribution</label>
+</PermissionSet>
